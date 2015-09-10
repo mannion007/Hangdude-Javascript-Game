@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"></style>
+    <title>Javascript Hangdude</title>
+</head>
+<body>
+    <h1>Hangdude</h1>
+    <p>Guess the Simpsons character...</p>
+    <div id="gameboard">
+        <input type="text" id="guesses-remaining" /> Guesses remaining
+        <input type="hidden" id="correct-guesses" />
+        <form>
+            <input type="hidden" id="correct-answer" value=""/>
+            <fieldset id="letter-panels"></fieldset>
+            <fieldset id = "game-controls">
+                <input type="text" id="guess-character" size="1" value =""/>
+                <input type="button" id="submit-guess" value="Guess" onclick="takeGuess();" />
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="hangdude.js"></script>
+</html>

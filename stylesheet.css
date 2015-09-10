@@ -1,0 +1,24 @@
+html {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+#guesses-remaining {
+    border:none;
+    text-align: center;
+    width:20px;
+}
+
+input[type="text"] {
+    text-align: center;
+}
+
+#letter-panels input[type="text"] {
+    text-align: center;
+    margin:10px;
+    width:30px;
+    padding:30px;
+}
